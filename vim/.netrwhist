@@ -1,3 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
-let g:netrw_dirhist_1='/home/rob/dotfiles'
+let g:netrw_dirhist_cnt =3
+let g:netrw_dirhist_1='/home/rob/Documents/rails/dart_times/app'
+let g:netrw_dirhist_2='/home/rob/Documents/rails/dart_times/app/models'
+let g:netrw_dirhist_3='/home/rob/dotfiles'
