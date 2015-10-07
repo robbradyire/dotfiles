@@ -18,6 +18,7 @@ Plug 'vim-ruby/vim-ruby'
 Plug 'pangloss/vim-javascript'
 Plug 'othree/html5.vim'
 Plug 'hdima/python-syntax'
+Plug 'dag/vim2hs'
 " -- Frameworks --
 Plug 'tpope/vim-rails'
 Plug 'tpope/vim-bundler'
