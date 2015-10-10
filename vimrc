@@ -30,16 +30,45 @@ call plug#end()
 syntax enable
 set background=dark
 " ---------------
-"  Other Stuff
+"  Display
 "  --------------
-set number
+set number      " show line numbers
+set cursorline  " highlights the line the cursor is on
+set showmatch   " highlights matching parenthesis
+
+" ---------------
+"  Swapfiles
+" ---------------
 set swapfile
-set dir=~/tmp
+set dir=~/.tmp
+
+" ---------------
+"  Tabs
+" ---------------
 set expandtab
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
 set smarttab
-set ttyfast
-set scrolloff=10
 
+" --------------
+" cursor
+" --------------
+set ttyfast      " quick scroll
+set scrolloff=10 " keeps cursor away from top & bottom edges
+
+" --------------
+"  Search
+"  -------------
+set incsearch
+set hlsearch
+" turn off search highlight
+nnoremap <leader>s :nohlsearch<CR>
+
+" --------------
+"  Leader
+"  -------------
+" map space to the leader key
+map <space> <leader>
+" inserts a space when in normal mode
+nnoremap <leader><space> i<space><Esc>
